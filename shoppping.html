@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .book {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .book img {
+            max-width: 100px;
+        }
+        .book-info {
+            flex: 1;
+            padding-left: 10px;
+        }
+        .book-title {
+            font-weight: bold;
+        }
+        .book-price {
+            color: #e44d26;
+            font-weight: bold;
+        }
+        .cart-total {
+            text-align: right;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bookstore Shopping Cart</h1>
+    </header>
+    <container>
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <div class="book-info">
+                <div class="book-title">Book Title 1</div>
+                <div class="book-price">$19.99</div>
+            </div>
+        </div>
+        <div class="book">
+            <img src="book2.jpg" alt="Book 2">
+            <div class="book-info">
+                <div class="book-title">Book Title 2</div>
+                <div class="book-price">$14.99</div>
+            </div>
+        </div>
+        <div class="book">
+            <img src="book3.jpg" alt="Book 3">
+            <div class="book-info">
+                <div class="book-title">Book Title 3</div>
+                <div class="book-price">$24.99</div>
+            </div>
+        </div>
+        <!-- Add more books following the same pattern -->
+        <div class="cart-total">
+            Total: $59.97
+        </div>
+    </container>
+</body>
+</html>
